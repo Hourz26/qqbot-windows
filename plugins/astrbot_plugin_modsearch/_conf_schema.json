@@ -1,0 +1,42 @@
+{
+  "modsearch_bin": {
+    "description": "modsearch CLI 入口（dist/main.js 绝对路径）",
+    "type": "string",
+    "default": "C:\\Apps\\astrbot\\data\\tools\\modsearch\\node_modules\\@liustack\\modsearch\\dist\\main.js"
+  },
+  "workdir": {
+    "description": "modsearch 工作目录（存放 config 与冷却状态）",
+    "type": "string",
+    "default": "C:\\Apps\\astrbot\\data\\tools\\modsearch"
+  },
+  "node_bin": {
+    "description": "node 可执行文件（服务器没有全局 node，用 SnowLuma 自带的）",
+    "type": "string",
+    "default": "C:\\Apps\\snowluma\\node.exe"
+  },
+  "timeout_seconds": {
+    "description": "单次搜索/抓页超时秒数（必须小于 AstrBot 的 tool_call_timeout=120）",
+    "type": "int",
+    "default": 90
+  },
+  "max_results": {
+    "description": "默认返回结果条数",
+    "type": "int",
+    "default": 5
+  },
+  "engine": {
+    "description": "指定引擎（留空=自动 firecrawl→keenable）",
+    "type": "string",
+    "default": ""
+  },
+  "enable_fetch_tool": {
+    "description": "是否注册整页抓取工具 modsearch_fetch_page",
+    "type": "bool",
+    "default": true
+  },
+  "fetch_max_chars": {
+    "description": "抓页正文最大字符数（越大越烧 token）",
+    "type": "int",
+    "default": 8000
+  }
+}

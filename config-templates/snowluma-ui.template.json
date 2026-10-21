@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "appearance": {
+    "mode": "system",
+    "accentMode": "preset",
+    "accentPreset": "sky",
+    "accentCustom": "#38bdf8",
+    "accentScope": "global",
+    "darkIntensity": "black",
+    "palette": "default",
+    "sidebarStyle": "follow",
+    "background": {
+      "type": "none",
+      "color": "#0ea5e9",
+      "gradient": "none",
+      "imageOpacity": 0.15,
+      "imageBlur": 0,
+      "hasImage": false,
+      "imageMime": "",
+      "imageVersion": 0
+    },
+    "fontSans": "default",
+    "fontSansCustom": "",
+    "fontMono": "default",
+    "fontMonoCustom": "",
+    "uiScale": 1,
+    "radius": 0.75,
+    "density": "cozy",
+    "reduceMotion": false,
+    "disableMotion": false,
+    "customPointerSystem": false,
+    "customContextMenu": true,
+    "highContrast": false,
+    "sidebarPinned": false,
+    "timeFormat": "24h",
+    "pollInterval": 3000,
+    "customCss": "",
+    "cssVars": {}
+  },
+  "layout": {
+    "overviewBlocks": [
+      {
+        "id": "stats",
+        "visible": true
+      },
+      {
+        "id": "connections",
+        "visible": true
+      },
+      {
+        "id": "alerts",
+        "visible": true
+      },
+      {
+        "id": "host",
+        "visible": true
+      },
+      {
+        "id": "sessions",
+        "visible": true
+      }
+    ],
+    "overviewMobile": [
+      {
+        "id": "stat:status",
+        "visible": true
+      },
+      {
+        "id": "stat:accounts",
+        "visible": true
+      },
+      {
+        "id": "stat:processes",
+        "visible": true
+      },
+      {
+        "id": "stat:host",
+        "visible": true
+      },
+      {
+        "id": "stat:uptime",
+        "visible": true
+      },
+      {
+        "id": "connections",
+        "visible": true
+      },
+      {
+        "id": "alerts",
+        "visible": true
+      },
+      {
+        "id": "host",
+        "visible": true
+      },
+      {
+        "id": "sessions",
+        "visible": true
+      }
+    ],
+    "navItems": [
+      {
+        "id": "/",
+        "visible": true
+      },
+      {
+        "id": "/processes",
+        "visible": true
+      },
+      {
+        "id": "/config",
+        "visible": true
+      },
+      {
+        "id": "/logs",
+        "visible": true
+      },
+      {
+        "id": "/settings",
+        "visible": true
+      }
+    ],
+    "topbarItems": [
+      {
+        "id": "status",
+        "visible": true
+      },
+      {
+        "id": "theme",
+        "visible": true
+      },
+      {
+        "id": "kiosk",
+        "visible": true
+      }
+    ]
+  },
+  "pages": {
+    "defaultRoute": "/",
+    "logs": {
+      "visibleLevels": [
+        "trace",
+        "debug",
+        "info",
+        "success",
+        "warn",
+        "error"
+      ],
+      "maxLines": 1000,
+      "autoScroll": true,
+      "wrap": true,
+      "highlightRules": [],
+      "preset": "custom"
+    },
+    "processesSort": "pid",
+    "configTab": ""
+  }
+}

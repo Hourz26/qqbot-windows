@@ -1,0 +1,25 @@
+# 本仓只放模板，填了真值的配置文件不要提交
+config-templates/*.json
+!config-templates/*.template.json
+
+# 运行时产物
+*.log
+*.bak
+*.bak-*
+logs/
+data/
+_winupload/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+package-lock.json
+
+# Windows
+Thumbs.db
+desktop.ini

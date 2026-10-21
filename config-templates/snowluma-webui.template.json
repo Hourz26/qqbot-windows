@@ -1,0 +1,7 @@
+{
+  "passwordHash": "REPLACE_WITH_HASH",
+  "passwordSalt": "REPLACE_WITH_SALT",
+  "mustChangePassword": false,
+  "generatedAt": "2026-10-18T12:18:29.866Z",
+  "updatedAt": "2026-10-18T12:20:57.947Z"
+}

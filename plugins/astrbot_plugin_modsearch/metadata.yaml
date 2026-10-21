@@ -1,0 +1,6 @@
+name: astrbot_plugin_modsearch
+display_name: modsearch 网页搜索
+desc: 用 modsearch（keyless：Firecrawl/Keenable 免费额度）替代付费搜索 API，给 LLM 提供网页搜索与整页抓取两个工具
+version: v1.0.1
+author: Hourz26
+repo: https://github.com/Hourz26/qqbot-toolkit

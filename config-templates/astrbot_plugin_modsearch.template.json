@@ -1,0 +1,10 @@
+﻿{
+    "modsearch_bin": "C:\\Apps\\astrbot\\data\\tools\\modsearch\\node_modules\\@liustack\\modsearch\\dist\\main.js",
+    "workdir": "C:\\Apps\\astrbot\\data\\tools\\modsearch",
+    "node_bin": "C:\\Apps\\snowluma\\node.exe",
+    "timeout_seconds": 90,
+    "max_results": 5,
+    "engine": "",
+    "enable_fetch_tool": true,
+    "fetch_max_chars": 8000
+}
